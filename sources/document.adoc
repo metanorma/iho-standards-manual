@@ -58,7 +58,7 @@ and presentation of IHO deliverables.
 
 * [[[iho-a1,IHO A-1]]]
 
-* [[[iso-dir-2,ISO DIR 2]]]
+* [[[iso-dir-2,ISO/IEC DIR 2 ISO]]]
 
 
 == Terms and definitions
