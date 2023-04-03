@@ -121,7 +121,7 @@ TRANSLATION OF IHO PUBLICATIONS 2/2008 as amended IHO A-1 R4.2
 . The accuracy of a translation lies with the translator. All translations should be marked as such;
 . Where appropriate, the IHO should benefit from any exploitation of a translation of its material; and
 . Translations should always contain the following statement prominently at the front of the publication unless IHO authorizes otherwise:
-“This document/publication is a translation of IHO document/publication [Name]. The IHO has not checked this translation and therefore takes no responsibility for its accuracy. In case of doubt the source version of [Name] in [Language] should be consulted”
+“This document/publication is a translation of IHO document/publication `[Name]`. The IHO has not checked this translation and therefore takes no responsibility for its accuracy. In case of doubt the source version of `[Name]` in `[Language]` should be consulted”
 
 ==== Translations for internal and private use
 
@@ -189,25 +189,6 @@ SYMBOLS AND ABBREVIATIONS 3/1962 as amended 11/2009 A2.3
 +
 --
 Hour::                 stem:[h]
-Minute of time::       stem:["min"] or stem:[m] (The use of m is not recommended; it is acceptable when there is no possible confusion with metre.)
-Metre::                stem:[m]
-Decimetre::            stem:[dm]
-Centimetre::           stem:[cm]
-Millimetre::           stem:[mm]
-Square metre::         stem:[m^{2}]
-Cubic metre::          stem:[m^{3}]
-Kilometre::            stem:[km]
-Inch::                 stem:[in]
-Foot::                 stem:[ft] or stem:[f^{t}]
-Yard::                 stem:[yd] or stem:[y^{d}]
-Fathom::               stem:[fm] or stem:[f^{m}]
-Nautical mile::        stem:[M]
-Knot::                 stem:[kn]
-Ton, Tonne, tonnage::  stem:[t] (use for measurement of vessel volume or weight; the context should make clear which is intended)
-Candela (new candle):: stem:[cd]
-Degree::               stem:[x°]
-Minute of arc::        stem:[y']
-Second of arc::        stem:[z"]
 --
 
 . It is recommended that the above international symbols and abbreviations be used on
