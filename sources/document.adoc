@@ -1,0 +1,338 @@
+= IHO deliverable development manual
+:series: M
+:docnumber: 999
+:doctype: standard
+:status: draft-proposal
+:edition: 0.1.0
+:language: en
+:published-date: 2023-03
+:copyright-year: 2023
+:committee: hssc
+:workgroup: hssc
+:mn-document-class: iho
+:mn-output-extensions: html,pdf
+:local-cache-only:
+:imagesdir: images
+
+
+[.preface]
+== Document history
+
+Changes to this publication are coordinated by the IHO {series}-{docnumber}
+Working Group.
+
+New editions will be made available via the IHO web site. Maintenance of the
+Specification shall conform to IHO Resolution 2/2007 (as amended).
+
+[%unnumbered]
+[cols="a,a,a,a",options="headers"]
+|===
+|Version Number |Date |Approved By |Purpose
+
+|0.1.0
+|Feb 2023
+|HSSC
+|Initial draft of {series}-{docnumber}
+
+|===
+
+
+== Overview
+
+This document describes guidelines and best practices for the creation
+and presentation of IHO deliverables.
+
+
+== Introduction
+
+This document describes guidelines and best practices for the creation
+and presentation of IHO deliverables.
+
+
+[bibliography]
+== References
+
+* [[[iho-s97,IHO S-97]]]
+
+* [[[iho-m3,IHO M-3]]]
+
+* [[[iho-a1,IHO A-1]]]
+
+* [[[iso-dir-2,ISO DIR 2]]]
+
+
+== Terms and definitions
+
+=== Terms
+
+==== standard
+
+a document, established by consensus and approved by a recognized body, that provides for common and repeated use, rules, guidelines or characteristics for activities or their results, aimed at the achievement of the optimum degree of order in a given context.
+
+NOTE: From IHO A-1 & 46/2019, 1.2. Any reference to “standards” in these
+principles and procedures follows the ISO/IEC definitions for standard and guide
+and may therefore also include some IHO “specifications” and “guidelines” as
+appropriate. IHO Product Specifications, including test data sets for validation
+checks, are considered to be standards.
+
+[.source]
+<<iso-dir-2>>
+
+==== guide
+
+a document giving orientation, advice or recommendations on non-normative matters relating to international standardization.
+
+[.source]
+<<iso-dir-2>>
+
+
+
+=== Abbreviations
+
+
+== Principles
+
+=== Language
+
+As described in <<iho-m3>>:
+
+DOCUMENTATION 12/1962 as IHO A-1 T1.5 amended
+
+It is resolved that the IHO Secretariat shall publish its reports and publications in either bilingual (English/French) or in separate English and French versions. In addition, the IHO Secretariat should (without increasing for this reason the present number of Locally Recruited Members of Staff) publish at least its Annual Report (Parts 1 and 2) and the periodic I.H. Bulletin in Spanish.
+
+The language(s) of other IHO reference documents, guidelines and standards shall be at least one of the official languages decided on a case by case basis in the IHO Work Programme, taking into account the intended use of the document, the resources of the IHO Secretariat and the assistance offered by Member States.
+
+
+=== Copyright
+
+
+
+
+=== Translations
+
+==== General
+
+As described in <<iho-m3>>:
+
+TRANSLATION OF IHO PUBLICATIONS 2/2008 as amended IHO A-1 R4.2
+
+. The IHO as the copyright owner of the source material should be acknowledged in all translations;
+. The IHO should not be responsible for the translation or any misuse or misunderstanding of a translation. All translations should be marked as such;
+. The accuracy of a translation lies with the translator. All translations should be marked as such;
+. Where appropriate, the IHO should benefit from any exploitation of a translation of its material; and
+. Translations should always contain the following statement prominently at the front of the publication unless IHO authorizes otherwise:
+“This document/publication is a translation of IHO document/publication [Name]. The IHO has not checked this translation and therefore takes no responsibility for its accuracy. In case of doubt the source version of [Name] in [Language] should be consulted”
+
+==== Translations for internal and private use
+
+HOs and other users (for example, academia, companies and individuals) may translate IHO Publications for their internal needs and requirements on the understanding that such translations are not intended for sale or reward of any kind.
+It is encouraged that any translations in languages other than the official languages of the IHO be provided to the IHO Secretariat in order that, without assuming any responsibility, they may be posted on the IHO web site for the benefit of IHO Member States and other parties of the international hydrographic community.
+
+==== Translations for commercial sales and purposes
+
+Any organizations (including HOs), entities or individuals wishing to translate IHO publications for commercial sale or reward of any kind must obtain prior agreement from the IHO Secretariat in order that the rights and benefits of the IHO and its Member States are safeguarded.
+In the first instance, prospective applicants should contact their respective national HO, who in turn may advise the IHO Secretariat on any opinion that they have on an application. The IHO Secretariat, on behalf of the IHO, may then grant permission in the form of an Agreement on a case by case basis, taking into account any general guidance that may be established by the IHO from time to time.
+
+
+=== Inclusive langauge
+
+As described in <<iho-m3>>:
+
+GENDER-INCLUSIVE LANGUAGE TO BE USED IN IHO DOCUMENTS AND COMMUNICATIONS 1/2020 IHO A-2
+
+
+. Given that language plays an important role in shaping cultural and social
+attitudes, it is resolved that the Secretariat and all IHO organs must ensure
+that the language used in IHO documents and communications issued or amended
+will be gender inclusive as per the UN Guidelines on Gender-inclusive Language
+in both official languages English and French. For the case that Spanish
+translations are provided by the Secretariat the above guidelines will apply
+too.
+
+. Documents produced prior to the approval of this resolution will be updated at
+the earliest possible opportunity and, preferably, in conjunction with other
+content editing or revision.
+
+
+
+== Elements
+
+=== Units of measure
+
+As per <<iho-m3>>.
+
+UNIT OF MEASUREMENT 1/1919 as amended 11/2009 A2.1
+
+. It is strongly recommended that all countries, as soon as convenient, adopt the metric system for their nautical publications.
+
+. It is resolved that, on charts of countries which do not use the metric system, a table or scale shall be inserted for converting into metres the depths given.
+
+. It is recommended that when non-metric units are used in Sailing Directions, Lists of Lights and Notices to Mariners, the equivalent measurement in the metric system be also given in brackets.
+
+
+=== Definition of the nautical mile
+
+As per <<iho-m3>>.
+
+INTERNATIONAL NAUTICAL MILE 2/1919 as amended IHC 10 A2.2
+
+It is resolved that the length represented by 1852 metres shall be the international nautical mile.
+
+
+=== Symbols and abbreviations of units
+
+As per <<iho-m3>>.
+
+SYMBOLS AND ABBREVIATIONS 3/1962 as amended 11/2009 A2.3
+
+. It is resolved that the following international symbols and abbreviations shall be used for the most common units:
++
+--
+Hour::                 stem:[h]
+Minute of time::       stem:["min"] or stem:[m] (The use of m is not recommended; it is acceptable when there is no possible confusion with metre.)
+Metre::                stem:[m]
+Decimetre::            stem:[dm]
+Centimetre::           stem:[cm]
+Millimetre::           stem:[mm]
+Square metre::         stem:[m^{2}]
+Cubic metre::          stem:[m^{3}]
+Kilometre::            stem:[km]
+Inch::                 stem:[in]
+Foot::                 stem:[ft] or stem:[f^{t}]
+Yard::                 stem:[yd] or stem:[y^{d}]
+Fathom::               stem:[fm] or stem:[f^{m}]
+Nautical mile::        stem:[M]
+Knot::                 stem:[kn]
+Ton, Tonne, tonnage::  stem:[t] (use for measurement of vessel volume or weight; the context should make clear which is intended)
+Candela (new candle):: stem:[cd]
+Degree::               stem:[x°]
+Minute of arc::        stem:[y']
+Second of arc::        stem:[z"]
+--
+
+. It is recommended that the above international symbols and abbreviations be used on
+charts instead of the entire words, as these symbols can be understood by navigators of any nationality.
+
+
+
+== Order of clauses
+
+
+
+
+== Structure of document elements
+
+* Clause structure (mandatory sections)
+* Referencing
+* Terms and definitions
+* Presentation and numbering of guidance text
+* Presentation of Table/Figure captions
+* UML practices
+
+
+=== Version
+
+As per <<iho-m3>>:
+
+PRINCIPLES AND PROCEDURES FOR
+MAKING CHANGES TO IHO TECHNICAL 2/2007 as amended STANDARDS AND SPECIFICATIONS
+IHO A-1 & 46/2019
+A1.21
+
+
+4.2 The associated version control numbering to identify changes (n) to all IHO standards should be as follows:
+New Editions denoted as n.0.0 Revisions denoted as n.n.0 Clarifications denoted as n.n.n
+
+
+=== Bibliographic references
+
+RM (S-111 and S-104):
+
+* 1.2 References
+* 1.2.1 Normative references
+* 1.2.2 Informative references
+
+DR: Always keep clauses with boilerplate (like ISO)
+
+No differentiation between normative/informative citations.
+
+Order (this is good):
+* Self-published standards (sorted by label)
+* Label (RM suggestion):
+* IHO documents with only number (“IHO S-102 2.2.0”)
+* Others as now (“ISO 19111:2019”, “W3C […]”), alpha sort by label
+* Citation of reference should use the [label] in box brackets (IETF, NIST)
+* IHO: “[IHO S-100 4.0.0]”, “[ISO 19111:2019]”
+* Other documents
+
+=== Terms and definitions
+
+* RM: Should have all 3 types of content
+* YB/LH: Standardize the clause title
+* LH: Standardized numbering
+* DR/LH: Add boilerplate to refer to IHO dictionary
+* RM/DR: Terms in alphabetical order
+* LH: see/see also, and deprecated/preferred may be useful to adopt
+* Ask JW on “modified from source” description.
+
+
+* Q: Should we the term structure like other SDOs do?
+* Q: Does abbreviated terms always exist?
+* Q: Allow concept relations like IEEE?
+
+* Standardized clause title
+* Boilerplate
+* Term
+* Definition
+* NOTEs/Examples
+* Concept mention
+* Concept source
+* Deprecated term, concept mention
+* Concept relation
+
+=== Presentation and numbering of guidance text
+
+==== NOTE
+
+==== Example
+
+==== Editorial Note
+
+==== Table note - stick to the table
+
+==== Footnote
+
+
+=== Cross-references
+
+In an IHO deliverable, e.g. “S-100”, means S-100 Edition 4.0.0 unless a
+different edition is explicitly identified.
+
+* RM: “Clause N”, subclause is also a clause. “Clause 1.1”, “Clause 1.1, Note 1”, “Clause 1.1, a)”, “Clause 1.1, list item 3”
+* RM/DR: Per clause Table/Figure numbering: “Table C-1”, Table 1-1”. DR prefers “-” dash instead of “.”.
+* YB will ask JW.
+
+Cross-reference:
+
+* “Chapter N” or “Clause N”?
+* But “Section 1.3”, “Section X.Y, Note Z”?
+* Annex A
+* Appendix 1
+* Table X (in Annex, Table A.X)
+* Figure Y (in Annex, Figure A.X)
+
+Citations:
+
+* IHO standards by identifier only: “S-100”
+* Standards by identifier with publisher: “ISO 19115:2003”
+* Refined Xrefs: “S-100, Table 1-2”
+* Citation reference label “[1]” not actually used?
+
+Captions:
+
+* Table/Figure 1 – (long dash) {caption}
+* Table caption on top
+* Figure caption at bottom
+
+[bibliography]
+== Bibliography
