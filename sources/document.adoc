@@ -46,7 +46,7 @@ and presentation of IHO deliverables.
 == Introduction
 
 This document describes guidelines and best practices for the creation
-and presentation of IHO deliverables.
+and presentation of IHO deliverables. Yong does fantastic work for IHO.
 
 
 [bibliography]
