@@ -1,0 +1,62 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>IHO sample deliverables</title><contributor><role type='author'/><organization><name>IHO: International Hydrographic Organization</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
+  <title type="main" language="en">IHO deliverable development manual</title>
+  <uri type="pdf">./documents/document.pdf</uri>
+  <uri type="html">./documents/document.html</uri>
+  <uri type="rxl">./documents/document.rxl</uri>
+  <docidentifier type="IHO" primary="true">M-999</docidentifier>
+  <docnumber>999</docnumber>
+  <date type="published">
+    <on>2023-03-01</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>International Hydrographic Organization</name>
+      <abbreviation>IHO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      <name>International Hydrographic Organization</name>
+      <subdivision>
+hssc
+</subdivision>
+      <subdivision>
+hssc
+</subdivision>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Hydrographic Organization</name>
+      <abbreviation>IHO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>0.1.0</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>draft-proposal</stage>
+  </status>
+  <copyright>
+    <from>2023</from>
+    <owner>
+      <organization>
+        <name>International Hydrographic Organization</name>
+        <abbreviation>IHO</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <series type="main">
+    <title>Miscellaneous</title>
+    <abbreviation>M</abbreviation>
+  </series>
+  <ext schema-version="v1.0.0">
+    <doctype>standard</doctype>
+  </ext>
+</bibdata></relation>
+</relaton-collection>
