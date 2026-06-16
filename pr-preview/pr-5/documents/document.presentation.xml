@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="1.3.3" schema-version="v2.1.5" flavor="iho">
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="1.3.6" schema-version="v2.1.6" flavor="iho">
 <bibdata type="standard">
 <title language="en" type="main">IHO deliverable development manual</title>
 <docidentifier primary="true" type="IHO">M-999</docidentifier><docnumber>999</docnumber><date type="published"><on>2023-03</on></date><contributor><role type="author"/><organization>
@@ -440,12 +440,12 @@ sourcecode .nt {
 </clause>
 
 
-<references id="_0d6699d3-f1f7-21f9-7053-e14f362209d7" normative="true" obligation="informative" semx-id="_0d6699d3-f1f7-21f9-7053-e14f362209d7" displayorder="3">
-<title id="_9fc2ea10-a7c5-a639-6371-58f49e3ee9da" semx-id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><fmt-title depth="1" id="_e002665d-f261-1e52-7505-166806b2d703"><span class="fmt-caption-label"><semx element="autonum" source="_0d6699d3-f1f7-21f9-7053-e14f362209d7">1</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_9fc2ea10-a7c5-a639-6371-58f49e3ee9da">Normative references</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Section</span> <semx element="autonum" source="_0d6699d3-f1f7-21f9-7053-e14f362209d7">1</semx></fmt-xref-label><p id="_49996d2b-65c1-916b-9bbf-42b933aa0025" semx-id="_49996d2b-65c1-916b-9bbf-42b933aa0025">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
-<bibitem id="iho-s97" type="standard" schema-version="v1.2.9" anchor="iho-s97" semx-id="_b15f31e5-e107-79b7-5baf-4ee02c899598"><biblio-tag>[1]<tab/></biblio-tag><formattedref>S-97 edition 1.1.0: Operational Procedures for the Organization and Management of the S-100 Geospatial Information Registry, International Hydrographic Organization (<fmt-link target="http://registry.iho.int/beta/guidance/list.do">http://registry.iho.int/beta/guidance/list.do</fmt-link>).</formattedref>
-  <fetched>2026-04-16</fetched>
+<references id="_81e3caab-04e6-b5e5-7f1a-4d071b0d6d8b" normative="true" obligation="informative" semx-id="_81e3caab-04e6-b5e5-7f1a-4d071b0d6d8b" displayorder="3">
+<title id="_9fc2ea10-a7c5-a639-6371-58f49e3ee9da" semx-id="_270c5ee6-077e-f285-ff95-287984a30140">Normative references</title><fmt-title depth="1" id="_e002665d-f261-1e52-7505-166806b2d703"><span class="fmt-caption-label"><semx element="autonum" source="_81e3caab-04e6-b5e5-7f1a-4d071b0d6d8b">1</semx></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_9fc2ea10-a7c5-a639-6371-58f49e3ee9da">Normative references</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Section</span> <semx element="autonum" source="_81e3caab-04e6-b5e5-7f1a-4d071b0d6d8b">1</semx></fmt-xref-label><p id="_49996d2b-65c1-916b-9bbf-42b933aa0025" semx-id="_49996d2b-65c1-916b-9bbf-42b933aa0025">The following documents are referred to in the text in such a way that some or all of their content constitutes requirements of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</p>
+<bibitem id="iho-s97" type="standard" schema-version="v1.5.6" anchor="iho-s97" semx-id="_4ae80fbc-b4d5-ef53-6e78-33f8574939f5"><biblio-tag>[1]<tab/></biblio-tag><formattedref>S-97 edition 1.1.0: Operational Procedures for the Organization and Management of the S-100 Geospatial Information Registry, International Hydrographic Organization, committee, International Hydrographic Organization (<fmt-link target="http://registry.iho.int/beta/guidance/list.do">http://registry.iho.int/beta/guidance/list.do</fmt-link>).</formattedref>
+  <fetched>2026-06-16</fetched>
   
-<title type="main" format="text/plain" language="en">Operational Procedures for the Organization and Management of the S-100 Geospatial Information Registry</title>
+<title language="en" type="main">Operational Procedures for the Organization and Management of the S-100 Geospatial Information Registry</title>
 
   <uri type="pdf">http://registry.iho.int/beta/guidance/list.do</uri>
   <docidentifier type="IHO" primary="true">S-97</docidentifier><docidentifier scope="biblio-tag">S-97</docidentifier>
@@ -463,10 +463,25 @@ sourcecode .nt {
       <uri>www.iho.int</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Hydrographic Organization</name>
+
+      <subdivision type="technical-committee">
+        
+<name>Hydrographic Services and Standards Committee</name>
+
+        <identifier id="_8a98121b-6ad0-6583-dcf4-49b188626253">HSSC</identifier><fmt-identifier><tt><semx element="identifier" source="_8a98121b-6ad0-6583-dcf4-49b188626253">HSSC</semx></tt></fmt-identifier>
+      </subdivision>
+      <abbreviation>IHO</abbreviation>
+    </organization>
+  </contributor>
   <edition>1.1.0</edition>
-  <version>
-    <revision-date>2020-01-16</revision-date>
-  </version>
+  <version>2020-01-16</version>
   <language>en</language>
   <script>Latn</script>
   <status>
@@ -486,21 +501,31 @@ sourcecode .nt {
   </copyright>
   <series type="main">
     
-<title type="original" format="text/plain">        Standards and Specifications     </title>
+<title language="en" script="Latn" type="original">Standards and Specifications</title>
 
-    <place>Monaco</place>
+    <place>
+      <formattedPlace>Monaco</formattedPlace>
+    </place>
     <organization>International Hydrographic Organization</organization>
     <number>S</number>
   </series>
-  <place>Monaco</place>
+  <place>
+    <formattedPlace>Monaco</formattedPlace>
+  </place>
   <validity>
-    <validityBegins>2020-01-16 00:00</validityBegins>
+    <validityBegins>2020-01-16T00:00:00Z</validityBegins>
   </validity>
 </bibitem>
-<bibitem id="iho-m3" type="standard" schema-version="v1.2.9" anchor="iho-m3" semx-id="_114aa771-13d0-5837-e506-61bf4221efbe"><biblio-tag>[2]<tab/></biblio-tag><formattedref>M-3 edition 2.0.0: Resolutions of the International Hydrographic Organization, International Hydrographic Organization (<fmt-link target="https://iho.int/uploads/user/pubs/misc/M3-E-2023%20-%20July.pdf">https://iho.int/uploads/user/pubs/misc/M3-E-2023%20-%20July.pdf</fmt-link>).</formattedref>
-  <fetched>2026-04-16</fetched>
+<bibitem id="iho-m3" type="standard" schema-version="v1.5.6" anchor="iho-m3" semx-id="_221d5c7e-03ff-c4a6-12b4-7d6ad4104052"><biblio-tag>[2]<tab/></biblio-tag><formattedref>M-3 edition 2.0.0: Resolutions of the International Hydrographic Organization, International Hydrographic Organization, committee, International Hydrographic Organization (<fmt-link target="https://iho.int/uploads/user/pubs/misc/M3-E-2023%20-%20July.pdf">https://iho.int/uploads/user/pubs/misc/M3-E-2023%20-%20July.pdf</fmt-link>).</formattedref>
+  <fetched>2026-06-16</fetched>
   
-<title type="main" format="text/plain" language="en">Resolutions of the International Hydrographic Organization</title>
+<title language="en" type="main">Resolutions of the International Hydrographic Organization</title>
+
+  
+<title language="fr" type="main">Résolutions de l’OHI</title>
+
+  
+<title language="es" type="main">Resoluciones de la Organización Hidrográfica Internacional</title>
 
   <uri type="pdf">https://iho.int/uploads/user/pubs/misc/M3-E-2023%20-%20July.pdf</uri>
   <docidentifier type="IHO" primary="true">M-3</docidentifier><docidentifier scope="biblio-tag">M-3</docidentifier>
@@ -518,10 +543,25 @@ sourcecode .nt {
       <uri>www.iho.int</uri>
     </organization>
   </contributor>
+  <contributor>
+    <role type="author">
+      <description>committee</description>
+    </role>
+    <organization>
+      
+<name>International Hydrographic Organization</name>
+
+      <subdivision type="technical-committee">
+        
+<name>International Hydrography Bureau</name>
+
+        <identifier id="_78fbbcf2-d403-ad7d-50ec-60c751db0755">BUREAU</identifier><fmt-identifier><tt><semx element="identifier" source="_78fbbcf2-d403-ad7d-50ec-60c751db0755">BUREAU</semx></tt></fmt-identifier>
+      </subdivision>
+      <abbreviation>IHO</abbreviation>
+    </organization>
+  </contributor>
   <edition>2.0.0</edition>
-  <version>
-    <revision-date>2020-03-01</revision-date>
-  </version>
+  <version>2020-03-01</version>
   <language>en</language>
   <language>fr</language>
   <language>es</language>
@@ -543,90 +583,26 @@ sourcecode .nt {
   </copyright>
   <series type="main">
     
-<title type="original" format="text/plain">        Miscellaneous Publications        Publications Mixtes     </title>
+<title language="en" script="Latn" type="original">Miscellaneous Publications</title>
 
-    <place>Monaco</place>
+    
+<title language="fr" script="Latn" type="original">Publications Mixtes</title>
+
+    <place>
+      <formattedPlace>Monaco</formattedPlace>
+    </place>
     <organization>International Hydrographic Organization</organization>
     <number>M</number>
   </series>
-  <place>Monaco</place>
+  <place>
+    <formattedPlace>Monaco</formattedPlace>
+  </place>
   <validity>
-    <validityBegins>2020-03-01 00:00</validityBegins>
+    <validityBegins>2020-03-01T00:00:00Z</validityBegins>
   </validity>
 </bibitem>
 <bibitem anchor="iho-a1" id="iho-a1" semx-id="_86e01fc2-0db9-1b7e-908f-4483acefacf3"><biblio-tag>[3]<tab/></biblio-tag><formattedref format="application/x-isodoc+xml">[NO INFORMATION AVAILABLE]</formattedref><docidentifier type="IHO">IHO A-1</docidentifier><docidentifier scope="biblio-tag">IHO A-1</docidentifier><docnumber>1</docnumber><language>en</language><script>Latn</script></bibitem>
-<bibitem id="iso-dir-2" type="standard" schema-version="v1.2.9" anchor="iso-dir-2" semx-id="_e9379530-0669-d93f-1ebf-b4fbdc59497d"><biblio-tag>[4]<tab/></biblio-tag><formattedref>ISO/IEC DIR 2 ISO: ISO/IEC Directives, Part 2, (<fmt-link target="https://www.iso.org/sites/directives/current/part2/index.xhtml">https://www.iso.org/sites/directives/current/part2/index.xhtml</fmt-link>).</formattedref>
-  <fetched>2026-04-16</fetched>
-  
-<title type="title-main" format="text/plain" language="en" script="Latn">ISO/IEC Directives, Part 2</title>
-
-  
-<title type="title-part" format="text/plain" language="en" script="Latn">Principles and rules for the structure and drafting of ISO and IEC documents</title>
-
-  <uri type="src">https://www.iso.org/sites/directives/current/part2/index.xhtml</uri>
-  <docidentifier type="ISO" primary="true">ISO/IEC DIR 2 ISO</docidentifier><docidentifier scope="biblio-tag">ISO/IEC DIR 2 ISO</docidentifier>
-  <edition>8</edition>
-  <language>en</language>
-  <script>Latn</script>
-  <copyright>
-    <from>2019</from>
-    <owner>
-      <organization>
-        
-<name>International Organization for Standardization</name>
-
-        <abbreviation>ISO</abbreviation>
-        <uri>www.iso.org</uri>
-      </organization>
-    </owner>
-  </copyright>
-  <relation type="partOf">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO/IEC DIR 2</formattedref>
-      <docidentifier type="ISO" primary="true">ISO/IEC DIR 2</docidentifier>
-    </bibitem>
-
-  </relation>
-  <relation type="instanceOf">
-    <bibitem type="standard">
-      <fetched>2026-04-16</fetched>
-      
-<title type="title-main" format="text/plain" language="en" script="Latn">ISO/IEC Directives, Part 2</title>
-
-      
-<title type="title-part" format="text/plain" language="en" script="Latn">Principles and rules for the structure and drafting of ISO and IEC documents</title>
-
-      <uri type="src">https://www.iso.org/sites/directives/current/part2/index.xhtml</uri>
-      <docidentifier type="ISO" primary="true">ISO/IEC DIR 2 ISO</docidentifier>
-      <date type="published">
-        <on>2018-01-01</on>
-      </date>
-      <edition>8</edition>
-      <language>en</language>
-      <script>Latn</script>
-      <copyright>
-        <from>2019</from>
-        <owner>
-          <organization>
-            
-<name>International Organization for Standardization</name>
-
-            <abbreviation>ISO</abbreviation>
-            <uri>www.iso.org</uri>
-          </organization>
-        </owner>
-      </copyright>
-      <relation type="partOf">
-        <bibitem type="standard">
-          <formattedref format="text/plain">ISO/IEC DIR 2</formattedref>
-          <docidentifier type="ISO" primary="true">ISO/IEC DIR 2</docidentifier>
-        </bibitem>
-
-      </relation>
-    </bibitem>
-
-  </relation>
-</bibitem>
+<bibitem anchor="iso-dir-2" id="iso-dir-2" semx-id="_d304acda-d002-41ab-0e29-c16220fe8211"><biblio-tag>[4]<tab/></biblio-tag><formattedref format="application/x-isodoc+xml">[NO INFORMATION AVAILABLE]</formattedref><docidentifier type="ISO">ISO/IEC DIR 2 ISO</docidentifier><docidentifier scope="biblio-tag">ISO/IEC DIR 2 ISO</docidentifier><docnumber>2 ISO</docnumber><language>en</language><script>Latn</script></bibitem>
 </references></sections><bibliography><references id="_c9a61214-1aba-536d-8901-2b704b278169" normative="false" obligation="informative" semx-id="_c9a61214-1aba-536d-8901-2b704b278169" displayorder="11">
 <title id="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44" semx-id="_50ceb1e1-516f-2673-d73d-4f0c58b4d023">Bibliography</title><fmt-title depth="1" id="_2da55403-b11b-078e-f7e8-f49a7def2e71"><semx element="title" source="_79a2af9e-6853-19a3-fcb8-27eb8dad0c44">Bibliography</semx></fmt-title>
 </references></bibliography>

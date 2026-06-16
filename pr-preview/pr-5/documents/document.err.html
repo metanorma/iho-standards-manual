@@ -8,20 +8,35 @@ thead th { font-weight: bold; background-color: aqua; }
 .severity3 { font-style: italic; color: grey; }
 </style>
 </head><body><h1>/__w/iho-standards-manual/iho-standards-manual/_site/documents/document.err.html errors</h1>
-<ul><li><p><b><a href="#Relaton">Relaton</a></b>: Severity 3: <b>1</b> error</p></li>
+<ul><li><p><b><a href="#Relaton">Relaton</a></b>: Severity 1: <b>1</b> error; Severity 3: <b>2</b> errors</p></li>
 
 <li><p><b><a href="#Style">Style</a></b>: Severity 2: <b>2</b> errors</p></li>
 
-<li><p><b><a href="#Metanorma_XML_Syntax">Metanorma XML Syntax</a></b>: Severity 2: <b>22</b> errors</p></li>
+<li><p><b><a href="#Metanorma_XML_Syntax">Metanorma XML Syntax</a></b>: Severity 2: <b>5</b> errors</p></li>
 </ul>
 <h2 id="Relaton">Relaton</h2>
 <table border="1">
 <thead><th width="5%">Line</th><th width="20%">ID</th><th width="10%">Error</th>
 <th width="20%">Message</th><th width="40%">Context</th><th width="5%">Severity</th></thead>
 <tbody>
+<tr class="severity1">
+<td></td><th><code>--</code></th><td>RELATON_2</td>
+<td>(Error from Relaton) <code>IHO A-1</code> -- Failed to match sequence (('IHO' SPACE)? SERIES DASH NUMBER APPENDIX?​ PART? ANNEX? SUPPLEMENT? VERSION?​) at line 1 char 5.
+cause: Failed to match sequence (('IHO' SPACE)? SERIES DASH NUMBER APPENDIX?​ PART? ANNEX? SUPPLEMENT? VERSION?​) at line 1 char 5.
+<code>- Expected one of ['S', 'S', 'P', 'M', 'B', 'C'] at line 1 char 5.
+   |- Expected "S", but got "A" at line 1 char 5.
+   |- Expected "S", but got "A" at line 1 char 5.
+   |- Expected "P", but got "A" at line 1 char 5.
+   |- Expected "M", but got "A" at line 1 char 5.
+   |- Expected "B", but got "A" at line 1 char 5.
+   </code>- Expected "C", but got "A" at line 1 char 5.
+</td><td><pre></pre></td><td>1</td></tr>
 <tr class="severity3">
-<td></td><th><code>IHO A-1</code></th><td>RELATON_4</td>
+<td></td><th><code>ISO/IEC DIR 2 ISO</code></th><td>RELATON_4</td>
 <td>(Error from Relaton) Not found.</td><td><pre></pre></td><td>3</td></tr>
+<tr class="severity3">
+<td></td><th><code>ISO/IEC DIR 2 ISO</code></th><td>RELATON_4</td>
+<td>(Error from Relaton) TIP: If you wish to cite all document parts for the reference, use <code>ISO/IEC DIR 2 ISO (all parts)</code>.</td><td><pre></pre></td><td>3</td></tr>
 </tbody></table>
 <h2 id="Style">Style</h2>
 <table border="1">
@@ -58,61 +73,10 @@ thead th { font-weight: bold; background-color: aqua; }
 <td></td><th><code>XML Line 000111:15</code></th><td>STANDOC_7</td>
 <td>element "definitions" incomplete; missing required element "dl"</td><td><pre></pre></td><td>2</td></tr>
 <tr class="severity2">
-<td></td><th><code>XML Line 000437:119</code></th><td>STANDOC_7</td>
-<td>text not allowed here; expected the element end-tag or element "abbreviation", "addition", "completename", "forename", "formatted-initials", "note", "prefix",​ "surname" or "variant"</td><td><pre></pre></td><td>2</td></tr>
+<td></td><th><code>XML Line 000432:24</code></th><td>STANDOC_7</td>
+<td>text not allowed here; expected the element end-tag or element "draft" or "revision-date"</td><td><pre></pre></td><td>2</td></tr>
 <tr class="severity2">
-<td></td><th><code>XML Line 000437:89</code></th><td>STANDOC_7</td>
-<td>attribute "language" not allowed here; expected attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000437:89</code></th><td>STANDOC_7</td>
-<td>attribute "script" not allowed here; expected attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000437:89</code></th><td>STANDOC_7</td>
-<td>element "variant" missing required attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000437:89</code></th><td>STANDOC_7</td>
-<td>element "variant" not allowed here; expected the element end-tag, text or element "br", "em", "passthrough", "smallcap", "stem", "strike",​ "strong",​ "sub", "sup", "tt" or "underline"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000439:20</code></th><td>STANDOC_7</td>
-<td>text not allowed here; expected the element end-tag or element "city", "country", "formattedPlace", "region" or "uri"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000443:18</code></th><td>STANDOC_7</td>
-<td>text not allowed here; expected the element end-tag or element "city", "country", "formattedPlace", "region" or "uri"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:117</code></th><td>STANDOC_7</td>
-<td>text not allowed here; expected the element end-tag or element "abbreviation", "addition", "completename", "forename", "formatted-initials", "note", "prefix",​ "surname" or "variant"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:170</code></th><td>STANDOC_7</td>
-<td>attribute "language" not allowed here; expected attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:170</code></th><td>STANDOC_7</td>
-<td>attribute "script" not allowed here; expected attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:170</code></th><td>STANDOC_7</td>
-<td>element "variant" missing required attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:170</code></th><td>STANDOC_7</td>
-<td>element "variant" not allowed here; expected the element end-tag, text or element "br", "em", "passthrough", "smallcap", "stem", "strike",​ "strong",​ "sub", "sup", "tt" or "underline"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:191</code></th><td>STANDOC_7</td>
-<td>text not allowed here; expected the element end-tag or element "abbreviation", "addition", "completename", "forename", "formatted-initials", "note", "prefix",​ "surname" or "variant"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:89</code></th><td>STANDOC_7</td>
-<td>attribute "language" not allowed here; expected attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:89</code></th><td>STANDOC_7</td>
-<td>attribute "script" not allowed here; expected attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:89</code></th><td>STANDOC_7</td>
-<td>element "variant" missing required attribute "type"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000494:89</code></th><td>STANDOC_7</td>
-<td>element "variant" not allowed here; expected the element end-tag, text or element "br", "em", "passthrough", "smallcap", "stem", "strike",​ "strong",​ "sub", "sup", "tt" or "underline"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000496:20</code></th><td>STANDOC_7</td>
-<td>text not allowed here; expected the element end-tag or element "city", "country", "formattedPlace", "region" or "uri"</td><td><pre></pre></td><td>2</td></tr>
-<tr class="severity2">
-<td></td><th><code>XML Line 000500:18</code></th><td>STANDOC_7</td>
-<td>text not allowed here; expected the element end-tag or element "city", "country", "formattedPlace", "region" or "uri"</td><td><pre></pre></td><td>2</td></tr>
+<td></td><th><code>XML Line 000512:24</code></th><td>STANDOC_7</td>
+<td>text not allowed here; expected the element end-tag or element "draft" or "revision-date"</td><td><pre></pre></td><td>2</td></tr>
 </tbody></table>
 </body></html>

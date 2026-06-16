@@ -1,12 +1,12 @@
-<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>IHO sample deliverables</title><contributor><role type='author'/><organization><name>IHO: International Hydrographic Organization</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.2.9">
-  <title type="main" language="en">IHO deliverable development manual</title>
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>IHO sample deliverables</title><contributor><role type='author'/><organization><name>IHO: International Hydrographic Organization</name></organization></contributor><relation type='partOf'><bibdata type="standard" schema-version="v1.5.6">
+  <title language="en" type="main">IHO deliverable development manual</title>
   <uri type="pdf">./documents/document.pdf</uri>
   <uri type="html">./documents/document.html</uri>
   <uri type="rxl">./documents/document.rxl</uri>
-  <docidentifier type="IHO" primary="true">M-999</docidentifier>
+  <docidentifier primary="true" type="IHO">M-999</docidentifier>
   <docnumber>999</docnumber>
   <date type="published">
-    <on>2023-03-01</on>
+    <on>2023-03</on>
   </date>
   <contributor>
     <role type="author"/>
@@ -21,12 +21,12 @@
     </role>
     <organization>
       <name>International Hydrographic Organization</name>
-      <subdivision>
-hssc
-</subdivision>
-      <subdivision>
-hssc
-</subdivision>
+      <subdivision type="Committee">
+        <name>hssc</name>
+      </subdivision>
+      <subdivision type="Workgroup">
+        <name>hssc</name>
+      </subdivision>
     </organization>
   </contributor>
   <contributor>
@@ -55,8 +55,12 @@ hssc
     <title>Miscellaneous</title>
     <abbreviation>M</abbreviation>
   </series>
-  <ext schema-version="v1.0.0">
+  <ext schema-version="v1.1.2">
     <doctype>standard</doctype>
+    <flavor>iho</flavor>
+    <structuredidentifier>
+      <docnumber>999</docnumber>
+    </structuredidentifier>
   </ext>
 </bibdata></relation>
 </relaton-collection>
